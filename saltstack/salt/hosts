@@ -1,0 +1,6 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+172.16.0.20 salt
+172.16.0.200 controller
+172.16.0.202 compute1
+172.16.0.201 network
