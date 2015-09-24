@@ -31,11 +31,11 @@ To run this environment you will need a pretty powerful machine that has at lest
 ## Create Vagrant Box ##
 ```instr2
 1. Download and intsall Packer
-2. Download Centos 7.1 ISO
+2. Download Centos 7.1 ISO and save in the directory packer/iso 
 3. Execute the following commands:
     $ cd packer
     $ packer build centos-7-x86_64.json
-    $ vagrant box add deltaone-team/centos-7.1 centos-7-x86_64.box
+    $ vagrant box add deltaone-team/centos-7.1 build/centos-7-x86_64.box
 ```
 
 ## Working with enviornment ##
